@@ -14,7 +14,7 @@ Then follow the below step.
     cd into the folder install the project dependency with the following command.
     ```console
         cd <repo-name>
-        pip install requirements.txt
+        pip install -r requirements.txt
     ```
 
     > note: you need to have ***python*** and ***pip*** installed for this to work.
@@ -29,14 +29,14 @@ Then follow the below step.
 
 4. Test the project with.
     ```console
-    python main.py foo.pdf
+    python main.py foo.pdf foo.xlsl
     ```
 
-    the last paremeter should be the file location + filename
+    the first paremeter after the main.py is the file location + filename while the second paremeter is the output file needed.
 
-    e.g: say i have a file in downloads, the command will be
+    e.g: say i have a file in downloads and wants to convert in to excel file in document folder, the command will be
     ````console
-    python main.py C:\Users\<Username>\Downloads\filename.pdf
+    python main.py C:\Users\<Username>\Downloads\filename.pdf C:\Users\<Username>\Documents\filename.xlsx
     ````
 
     > Hope this helps
