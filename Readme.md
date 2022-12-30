@@ -13,7 +13,7 @@ Then follow the below step.
 2. install the requirements using .
     cd into the folder install the project dependency with the following command.
     ```console
-        cd https://github.Pdf-Table-To-Excel
+        cd Pdf-Table-To-Excel
         pip install -r requirements.txt
     ```
 
