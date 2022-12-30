@@ -7,13 +7,13 @@ Then follow the below step.
 
 1. clone this repo using 
     ```console
-        git clone https://github.com/winninggodspower/<repo-name>/
+        git clone https://github.com/winninggodspower/Pdf-Table-To-Excel.git
     ```
 
 2. install the requirements using .
     cd into the folder install the project dependency with the following command.
     ```console
-        cd <repo-name>
+        cd https://github.Pdf-Table-To-Excel
         pip install -r requirements.txt
     ```
 
